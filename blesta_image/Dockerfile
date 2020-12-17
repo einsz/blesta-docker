@@ -3,8 +3,8 @@ FROM alpine:3.12
 LABEL Maintainer="Eddy <me@edy.io>" \
       Description="Blesta with Nginx & PHP-FPM based on Alpine Linux"
 
-ENV BLESTA_VERSION=4.10.2 \
-    DOWNLOAD_ID=154
+ENV BLESTA_VERSION=4.12.3 \
+    DOWNLOAD_ID=169
 
 ARG GID=1000
 ARG UID=1000
